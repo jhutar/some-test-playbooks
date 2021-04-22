@@ -1,0 +1,25 @@
+---
+- hosts: all
+  remote_user: root
+  gather_facts: no
+  tasks:
+    - name: "Sleep"
+      command: "sleep 10"
+    - name: "Sleep"
+      command: "sleep 10"
+    - name: "Sleep"
+      command: "sleep 10"
+    - name: "Sleep"
+      command: "sleep 10"
+    - name: "Sleep"
+      command: "sleep 10"
+    - name: "Sleep"
+      command: "sleep 10"
+    - name: "Sleep"
+      command: "sleep 10"
+    - name: "Sleep"
+      command: "sleep 10"
+    - name: "Sleep"
+      command: "sleep 10"
+    - name: "Sleep"
+      command: "sleep 10"

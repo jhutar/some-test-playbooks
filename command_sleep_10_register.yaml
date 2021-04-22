@@ -1,0 +1,35 @@
+---
+- hosts: all
+  remote_user: root
+  gather_facts: no
+  tasks:
+    - name: "Sleep"
+      command: "sleep 10"
+      register: s1
+    - name: "Sleep"
+      command: "sleep 10"
+      register: s2
+    - name: "Sleep"
+      command: "sleep 10"
+      register: s3
+    - name: "Sleep"
+      command: "sleep 10"
+      register: s4
+    - name: "Sleep"
+      command: "sleep 10"
+      register: s5
+    - name: "Sleep"
+      command: "sleep 10"
+      register: s6
+    - name: "Sleep"
+      command: "sleep 10"
+      register: s7
+    - name: "Sleep"
+      command: "sleep 10"
+      register: s8
+    - name: "Sleep"
+      command: "sleep 10"
+      register: s9
+    - name: "Sleep"
+      command: "sleep 10"
+      register: s10

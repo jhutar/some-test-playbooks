@@ -1,0 +1,25 @@
+---
+- hosts: all
+  remote_user: root
+  gather_facts: no
+  tasks:
+    - name: "Setup"
+      setup:
+    - name: "Setup"
+      setup:
+    - name: "Setup"
+      setup:
+    - name: "Setup"
+      setup:
+    - name: "Setup"
+      setup:
+    - name: "Setup"
+      setup:
+    - name: "Setup"
+      setup:
+    - name: "Setup"
+      setup:
+    - name: "Setup"
+      setup:
+    - name: "Setup"
+      setup:

@@ -1,0 +1,55 @@
+---
+- hosts: all
+  remote_user: root
+  gather_facts: no
+  tasks:
+    - name: "Copy"
+      copy:
+        src: copy.yaml
+        dest: /tmp/copy1
+        mode: '0644'
+    - name: "Copy"
+      copy:
+        src: copy.yaml
+        dest: /tmp/copy2
+        mode: '0644'
+    - name: "Copy"
+      copy:
+        src: copy.yaml
+        dest: /tmp/copy3
+        mode: '0644'
+    - name: "Copy"
+      copy:
+        src: copy.yaml
+        dest: /tmp/copy4
+        mode: '0644'
+    - name: "Copy"
+      copy:
+        src: copy.yaml
+        dest: /tmp/copy5
+        mode: '0644'
+    - name: "Copy"
+      copy:
+        src: copy.yaml
+        dest: /tmp/copy6
+        mode: '0644'
+    - name: "Copy"
+      copy:
+        src: copy.yaml
+        dest: /tmp/copy7
+        mode: '0644'
+    - name: "Copy"
+      copy:
+        src: copy.yaml
+        dest: /tmp/copy8
+        mode: '0644'
+    - name: "Copy"
+      copy:
+        src: copy.yaml
+        dest: /tmp/copy9
+        mode: '0644'
+    - name: "Copy"
+      copy:
+        src: copy.yaml
+        dest: /tmp/copy10
+        mode: '0644'

@@ -1,0 +1,21 @@
+---
+- hosts: all
+  remote_user: root
+  gather_facts: no
+  tasks:
+    - name: "Copy"
+      copy:
+        src: copy.yaml
+        dest: "{{ item }}"
+        mode: '0644'
+      loop:
+        - /tmp/copy1
+        - /tmp/copy2
+        - /tmp/copy3
+        - /tmp/copy4
+        - /tmp/copy5
+        - /tmp/copy6
+        - /tmp/copy7
+        - /tmp/copy8
+        - /tmp/copy9
+        - /tmp/copy10

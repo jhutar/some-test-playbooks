@@ -1,0 +1,24 @@
+---
+- hosts: all
+  remote_user: root
+  gather_facts: yes
+  tasks:
+    - name: Template
+      template:
+        src: "{{ item }}"
+        dest: "/tmp/{{ item }}.out"
+        owner: root
+        group: root
+        mode: '0644'
+      throttle: 50
+      loop:
+        - sshd_config.j2
+        - sudoers.j2
+        - sshd_config.j2
+        - sudoers.j2
+        - sshd_config.j2
+        - sudoers.j2
+        - sshd_config.j2
+        - sudoers.j2
+        - sshd_config.j2
+        - sudoers.j2
